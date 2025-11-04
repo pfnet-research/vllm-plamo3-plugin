@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright Preferred Networks, Inc.
 """Inference-only PLaMo3 model."""
 from collections.abc import Iterable
 from itertools import islice
