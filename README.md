@@ -8,10 +8,10 @@ This plugin enables running inference for PLaMo3 using vLLM using vLLM's [Plugin
 To get started with the vLLM PLaMo3 plugin, just build and install the plugin, then run vLLM with the desired PLaMo3 model.
 
 ```bash
-git clone <URL HERE>
+git clone https://github.com/pfnet-research/vllm-plamo3-plugin.git
 cd vllm-plamo3-plugin
 pip install -e .
-vllm serve <MODEL PATH HERE> --trust-remote-code
+vllm serve pfnet/plamo-3-nict-2b-base --trust-remote-code
 ```
 
 ## License
