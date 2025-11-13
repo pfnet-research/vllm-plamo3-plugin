@@ -340,6 +340,9 @@ class Plamo3ForCausalLM(nn.Module, SupportsPP):
     def __init__(self, *, vllm_config: VllmConfig, prefix: str = "") -> None:
         super().__init__()
         self.config = vllm_config.model_config.hf_config
+        self.vllm_config = vllm_config
+        self.model_config = vllm_config.model_config
+        self.scheduler_config = vllm_config.scheduler_config
 
         self.model = Plamo3Model(vllm_config=vllm_config,
                                  prefix=maybe_prefix(prefix, "model"))
