@@ -1,5 +1,5 @@
 > [!NOTE]
-> [vLLM v0.12.0](https://github.com/vllm-project/vllm/releases/tag/v0.12.0) is now available with official support for PLaMo 3. This plugin is no longer necessary unless you are trying to serve PLaMo 3 under vLLM v0.11.x.
+> [vLLM v0.12.0](https://github.com/vllm-project/vllm/releases/tag/v0.12.0) is now available with official support for PLaMo 3. This plugin is no longer necessary unless you are trying to serve PLaMo 3 under vLLM v0.11.0.
 
 # vLLM Plugin for PLaMo3
 
